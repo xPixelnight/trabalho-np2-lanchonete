@@ -25,6 +25,7 @@ function exibirResumo() {
     // TODO: calcular e exibir total de pedidos, entregues, pendentes e valor total.
 }
 
+<<<<<<< HEAD
 function gerarResumoJSON() {
     let total = pedidos.length;
     let entregues = 0;
@@ -52,5 +53,8 @@ function gerarResumoJSON() {
 
     console.log(json);
 
+=======
+export function gerarResumoJSON() {
+>>>>>>> 4dac3ad (parte do nathan)
     // TODO: criar o objeto do resumo, converter com JSON.stringify() e exibir.
 }
